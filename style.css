@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+
+body {
+    background-color: #EFEEEE;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+/* NAVBAR */
+nav {
+    padding: 20px;
+    background-color: #F26666;
+    display: flex;
+}
+.nomeProjeto {
+    flex:1;
+    text-transform: uppercase;
+    color: #fff;
+}
+.navegacao {
+    flex: 3;
+}
+.signup a, .navegacao a {
+    background-color: #EFEEEE;
+    color: #F26666;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 3px;
+}
+.signup a:hover,.navegacao a:hover {
+    background-color: bisque;
+    color:black;
+}
+.busca {
+    flex: 1;
+}
+.busca input{
+    border: none;
+    background-color: #EFEEEE;
+    color: #F26666;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.busca button {
+    background-color: #F26666;
+    color: #EFEEEE;
+    border: solid 1px #EFEEEE;
+    font-size: 10px;
+    border-radius: 10px;
+}
+.signup {
+    flex: 1;
+}
+
+/* CORPO DO SITE */
+main {
+    max-width: 950px;
+    margin: 50px auto;
+}
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px;
+    color: #F26666;
+}
+h2{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CARDS */
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+}
+.cards section {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 20px;
+    max-width: 250px;
+    padding: 20px;
+    border: 2px solid #fff;
+    margin-left: 10px;
+}
+.cards section:hover {
+  border: #F26666 solid 2px;   
+}
+.cards section h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.cards ul {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+.cards li {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    border-bottom: #ccc solid 1px;
+}
